@@ -1,0 +1,32 @@
+# 依赖目录
+node_modules/
+dist/
+
+# 环境文件
+.env
+.env.local
+.env.*.local
+
+# 日志文件
+*.log
+logs/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE配置
+.idea/
+.vscode/
+
+# 测试覆盖
+coverage/
+.nyc_output/
+
+# 调试文件
+*.pid
+*.seed
+
+# 密钥文件
+*.pem
+*.key
