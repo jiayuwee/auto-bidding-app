@@ -1,0 +1,2 @@
+> git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 1b19641081101676cf874f3e3cccc453232ee22c
+fatal: bad object 1b19641081101676cf874f3e3cccc453232ee22c
