@@ -1,10 +1,10 @@
 # Auto Bidding App
 
-## 项目配置
-1. 复制`.env.example`为`.env`
-2. 运行 `npm install`
-3. 启动开发服务器 `npm run dev`
+## 项目状态
+✅ 基础框架已搭建  
+✅ TypeScript配置完成  
+✅ 已连接GitHub仓库
 
-## 安全说明
-- 不要将`.env`文件提交到版本控制
-- 定期轮换密钥
+## 开发说明
+1. `npm install`
+2. `npm start`
