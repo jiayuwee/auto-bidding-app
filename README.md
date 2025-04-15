@@ -7,4 +7,4 @@
 
 ## 开发说明
 1. `npm install`
-2. `npm start`
+2. `npm start`# auto-bidding-app
