@@ -1,8 +1,3 @@
-# 新增
-android/
-ios/
-*.keystore
-
 # 依赖目录
 node_modules/
 dist/

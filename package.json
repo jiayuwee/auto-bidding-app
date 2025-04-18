@@ -34,8 +34,22 @@
     "@babel/plugin-transform-optional-catch-binding": "^7.25.9",
     "@babel/plugin-transform-optional-chaining": "^7.25.9",
     "@types/jest": "^29.5.12",
-    "@types/react": "18.2.0",
+    "@types/react": "^19.0.0",  // 更新React类型定义
+    "@types/react-dom": "^19.0.0",  // 确保版本匹配
     "@types/react-native": "0.72.8",
     "typescript": "^5.2.0"
-  }
+  },
+  "description": "✅ 基础框架已搭建  \r ✅ TypeScript配置完成  \r ✅ 已连接GitHub仓库",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiayuwee/auto-bidding-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jiayuwee/auto-bidding-app/issues"
+  },
+  "homepage": "https://github.com/jiayuwee/auto-bidding-app#readme"
 }

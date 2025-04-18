@@ -1,0 +1,4 @@
+feat: 项目初始化
+- 添加核心TS组件和类型定义
+- 配置React Native开发环境
+- 设置TypeScript编译选项
