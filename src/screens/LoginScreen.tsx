@@ -1,20 +1,13 @@
-import * as React from 'react';
-import { useState } from 'react';
-import { View, TextInput, Button, StyleSheet, NativeSyntheticEvent, NativeTouchEvent } from 'react-native';
+import React from 'react';
+import { View, TextInput, Button } from 'react-native';
 
-// 删除重复的LoginScreenProps接口定义
-type LoginScreenProps = {
+interface LoginScreenProps {
   navigation: {
     navigate: (route: string, params?: object) => void;
   };
-};
+}
 
-// 删除下面这个重复定义
-// interface LoginScreenProps {
-//   navigation: any;
-// }
-
-const LoginScreen: FC<LoginScreenProps> = ({ navigation }) => {
+const LoginScreen: React.FC<LoginScreenProps> = ({ navigation }) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
