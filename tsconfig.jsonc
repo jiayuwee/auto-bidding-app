@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // 保持 ES6 目标
+    "module": "commonjs", // Node.js 环境下使用 commonjs
+    "jsx": "react", // 支持 React JSX
+    "strict": true, // 启用严格模式
+    "esModuleInterop": true, // 支持 ES 模块互操作
+    "skipLibCheck": true, // 跳过库类型检查以加快编译速度
+    "forceConsistentCasingInFileNames": true, // 文件名大小写一致性
+    "outDir": "./dist", // 输出目录
+    "resolveJsonModule": true, // 支持导入 JSON 模块
+    "baseUrl": ".", // 设置基础路径
+    "paths": {
+      "@models/*": ["src/models/*"], // 模型路径别名
+      "@services/*": ["src/services/*"], // 服务路径别名
+      "@utils/*": ["src/utils/*"] // 工具路径别名
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"], // 包含 src 目录下的文件
+  "exclude": ["node_modules", "dist"] // 排除 node_modules 和 dist
+}
